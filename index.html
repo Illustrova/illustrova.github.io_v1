@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Irina Illustrova - Front End Developer</title>
+    <meta name="description" content="A tribute page for the famous actress Audrey  Hepburn">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:600,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  </head>
+  <body>
+    <div class="wrapper container-fluid px-0">
+      <header>
+        <nav class="navbar sticky-top top-menu navbar-light bg-light align-items-baseline">
+          <div class="justify-content-start align-items-center d-flex flex-nowrap">
+            <img class="navbar-brand img-fluid logo" src="img/logo.svg" alt="Illustrova logo">
+            <h1 class="text-primary text-nowrap mb-0">Irina Illustrova</h1>
+          </div>
+          <p class="h2 d-none d-sm-block">Front End Developer</p>
+        </nav>
+      </header>
+      <main class="main-content px-3 pt-2">
+        <div class="inner-wrapper">
+          <section class="section portfolio text-center" id="portfolio">
+            <h2 class="section-header">Works</h2>
+            <div class="section-content p-4">
+              <ul class="nav nav-pills pb-4 px-2">
+                <li class="nav-item portfolio-tag"><a class="nav-link tag active" href="#" data-toggle="pill" data-tag="all">All</a></li>
+                <li class="nav-item portfolio-tag"><a class="nav-link tag" href="#" data-toggle="pill" data-tag="Gulp">Gulp</a></li>
+                <li class="nav-item portfolio-tag"><a class="nav-link tag" href="#" data-toggle="pill" data-tag="Pug">Pug</a></li>
+                <li class="nav-item portfolio-tag"><a class="nav-link tag" href="#" data-toggle="pill" data-tag="SASS">SASS</a></li>
+                <li class="nav-item portfolio-tag"><a class="nav-link tag" href="#" data-toggle="pill" data-tag="Adaptive">Adaptive</a></li>
+                <li class="nav-item portfolio-tag"><a class="nav-link tag" href="#" data-toggle="pill" data-tag="SVG">SVG</a></li>
+                <li class="nav-item portfolio-tag"><a class="nav-link tag" href="#" data-toggle="pill" data-tag="React">React</a></li>
+                <li class="nav-item portfolio-tag"><a class="nav-link tag" href="#" data-toggle="pill" data-tag="API">API</a></li>
+                <li class="nav-item portfolio-tag"><a class="nav-link tag" href="#" data-toggle="pill" data-tag="Node.js">Node.js</a></li>
+              </ul>
+              <div class="container-fluid">
+                <div class="row portfolio-shuffle">
+                  <figure class="col-md-6 col-lg-4 col-xl-3 mb-2 portfolio-item shuffle-item" data-groups="[&quot;Gulp&quot;,&quot;Pug&quot;,&quot;SASS&quot;,&quot;Adaptive&quot;]"><a class="portfolio-item-link d-block position-relative" data-toggle="modal" href=".tribute-page">
+                      <div class="aspect aspect--3x2">
+                        <div class="aspect__inner"><img class="img-fluid img-thumbnail" src="img/portfolio/Tribute-page.png" alt="Desktop view of the page"/>
+                          <div class="overlay p-3">
+                            <h3 class="text-primary">Tribute Page</h3><small class="desc text-secondary text-truncate"></small>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                  <figure class="col-md-6 col-lg-4 col-xl-3 mb-2 portfolio-item shuffle-item" data-groups="[&quot;Gulp&quot;,&quot;Pug&quot;,&quot;SASS&quot;,&quot;SVG&quot;]"><a class="portfolio-item-link d-block position-relative" data-toggle="modal" href=".memory-game">
+                      <div class="aspect aspect--3x2">
+                        <div class="aspect__inner"><img class="img-fluid img-thumbnail" src="img/portfolio/memory-game.png" alt="Memory game screenshot"/>
+                          <div class="overlay p-3">
+                            <h3 class="text-primary">Memory Game</h3><small class="desc text-secondary text-truncate"></small>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                  <figure class="col-md-6 col-lg-4 col-xl-3 mb-2 portfolio-item shuffle-item" data-groups="[&quot;React&quot;,&quot;SASS&quot;,&quot;API&quot;]"><a class="portfolio-item-link d-block position-relative" data-toggle="modal" href=".kindergarten-finder">
+                      <div class="aspect aspect--3x2">
+                        <div class="aspect__inner">
+                          <div class="no-image">
+                            <div class="placeholder text-center">
+                              <i class="fas fa-camera-retro"></i>
+                            </div>
+                          </div>
+                          <div class="overlay p-3">
+                            <h3 class="text-primary">Kindergarten Finder</h3><small class="desc text-secondary text-truncate"></small>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                  <figure class="col-md-6 col-lg-4 col-xl-3 mb-2 portfolio-item shuffle-item" data-groups="[&quot;Node.js&quot;]"><a class="portfolio-item-link d-block position-relative" data-toggle="modal" href=".merlin2excel">
+                      <div class="aspect aspect--3x2">
+                        <div class="aspect__inner"><img class="img-fluid img-thumbnail" src="img/portfolio/merlin2excel.png" alt="Screenshot of source file and result"/>
+                          <div class="overlay p-3">
+                            <h3 class="text-primary">Merlin2Excel</h3>
+                            <small class="desc text-secondary text-truncate"></small>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+                <div class="col-1 portfolio-shuffle-sizer"></div>
+              </div>
+              <div class="modal modal-fullscreen tribute-page" tabindex="-1" role="dialog" aria-labelledby="tribute-page" aria-hidden="true" id="tribute-page">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <nav class="modal-header align-items-center">
+                      <a class="nav-item nav-link ml-auto invisible close" href="#close">&times;</a>
+                      <div class="modal-header-title d-flex align-items-center">
+                        <h2 class="navbar-brand modal-title text-primary mx-3">Tribute Page</h2>
+                      </div>
+                      <a class="nav-item nav-link ml-auto close" href="#close" data-dismiss="modal" aria-label="Close" title="Close">&times;</a>
+                    </nav>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-12 text-left text-secondary">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-7"><img class="img-fluid" src="img/portfolio/Tribute-page.png" alt="Desktop view of the page"/></div>
+                          <div class="col-md-5 text-left">
+                            <ul class="list-group-flush text-left pl-1 project-spec">
+                              <li class="list-group-item project-date text-secondary">
+                                <i class="far fa-calendar-alt"></i>
+                                <span class="pl-2 text-dark">January 2018</span>
+                              </li>
+                              <li class="list-group-item project-date text-secondary">
+                                <i class="far fa-clock"></i>
+                                <span class="pl-2 text-dark">~60 hours</span>
+                              </li>
+                              <li class="list-group-item project-date text-secondary">
+                                <i class="fab fa-github"></i>
+                                <a class="pl-2" href="https://github.com/Illustrova/Audrey-Tribute-Page" target="_blank" rel="noopener">Source code</a>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="fas fa-globe"></i>
+                                <a class="pl-2" href="/Audrey-Hepburn-Tribute-Page" target="_blank" rel="noopener">Live demo</a>
+                              </li>
+                            </ul>
+                            <h5 class="mx-3 mb-2">Technologies</h5>
+                            <ul class="list-unstyled unordered-list project-tech pl-1 ml-4">
+                              <li>Pug</li>
+                              <li>SASS</li>
+                              <li>Swipe.js</li>
+                              <li>Gulp</li>
+                              <li>Responsive images with srcset</li>
+                              <li>Lazy-loaded images with SVG placeholders</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 text-left">
+                            <h3 class="m-3">Details</h3>
+                            <p>Made for fun and FreeCodeCamp Challenge. One of the best parts of this projet was introduction to Primitive library. which creates beautiful abstract svg placeholders for the image. Check the demo on low-speed to notice them!</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal modal-fullscreen memory-game" tabindex="-1" role="dialog" aria-labelledby="memory-game" aria-hidden="true" id="memory-game">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <nav class="modal-header align-items-center"><a class="nav-item nav-link ml-auto invisible close" href="#close">&times;</a>
+                      <div class="modal-header-title d-flex align-items-center">
+                        <h2 class="navbar-brand modal-title text-primary mx-3">Memory Game</h2>
+                      </div><a class="nav-item nav-link ml-auto close" href="#close" data-dismiss="modal" aria-label="Close" title="Close">&times;</a>
+                    </nav>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-12 text-left text-secondary">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-7"><img class="img-fluid" src="img/portfolio/memory-game.png" alt="Memory game screenshot"/></div>
+                          <div class="col-md-5 text-left">
+                            <ul class="list-group-flush text-left pl-1 project-spec">
+                              <li class="list-group-item project-date text-secondary"><i class="far fa-calendar-alt"></i><span class="pl-2 text-dark">June 2018</span>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="far fa-clock"></i><span class="pl-2 text-dark">~60 hours</span>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="fab fa-github"></i><a class="pl-2" href="https://github.com/Illustrova/fend-project-memory-game" target="_blank" rel="noopener">Source code</a>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="fas fa-globe"></i><a class="pl-2" href="/Pop-Art-Memory_Game" target="_blank" rel="noopener">Live demo</a>
+                              </li>
+                            </ul>
+                            <h5 class="mx-3 mb-2">Technologies</h5>
+                            <ul class="list-unstyled unordered-list project-tech pl-1 ml-4">
+                              <li>Pug</li>
+                              <li>SASS</li>
+                              <li>SVG</li>
+                              <li>Gulp</li>
+                              <li>HTML5 Dialog polyfill</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 text-left">
+                            <h3 class="m-3">Details</h3>
+                            <p>Had some fun research on the abilities of SVG and CSS animations, while preparing aproject for my FEND Nanodegree. Instead of using the provided layout, I built my own one and added some experimental effects. Although the result, particularly card &quot;breaking-apart&quot; is slow enough to be considered for production, I definitely learnt a lot about SVG.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal modal-fullscreen kindergarten-finder" tabindex="-1" role="dialog" aria-labelledby="kindergarten-finder" aria-hidden="true" id="kindergarten-finder">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <nav class="modal-header align-items-center"><a class="nav-item nav-link ml-auto invisible close" href="#close">&times;</a>
+                      <div class="modal-header-title d-flex align-items-center">
+                        <h2 class="navbar-brand modal-title text-primary mx-3">Kindergarten Finder</h2>
+                      </div><a class="nav-item nav-link ml-auto close" href="#close" data-dismiss="modal" aria-label="Close" title="Close">&times;</a>
+                    </nav>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-12 text-left text-secondary">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-7">
+                            <div class="no-image">
+                              <div class="placeholder text-center"><i class="fas fa-camera-retro"></i></div>
+                            </div>
+                          </div>
+                          <div class="col-md-5 text-left">
+                            <ul class="list-group-flush text-left pl-1 project-spec">
+                              <li class="list-group-item project-date text-secondary"><i class="far fa-calendar-alt"></i><span class="pl-2 text-dark">July-August 2018</span>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="far fa-clock"></i><span class="pl-2 text-dark">~100 hours</span>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="fas fa-globe"></i><a class="pl-2" href="/Kindergarten-Finder" target="_blank" rel="noopener">Check result!</a>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="fab fa-github"></i><a class="pl-2" href="https://github.com/Illustrova/Kindergarten-Finder-React" target="_blank" rel="noopener">Source code</a>
+                              </li>
+                            </ul>
+                            <h5 class="mx-3 mb-2">Technologies</h5>
+                            <ul class="list-unstyled unordered-list project-tech pl-1 ml-4">
+                              <li>React</li>
+                              <li>Sass</li>
+                              <li>Google Maps API</li>
+                              <li>Facebook API</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 text-left">
+                            <h3 class="m-3">Details</h3>
+                            <p>Final project for FEND Degree aligned with the real needs, and hopefully the result can be useful for some people.
+ ESPA is an European funding program which, among other, provides preschool sponsorship for parents with low income in Greece. Every year the catalogues of nurseries and kindergartens are published on the website as pdf, and as a parent you spend quite some time, googling every address in your area in order to find if it's located good for you. The backend script parses this PDF files and geocodes all the addresses, exporting a nice-formatted json with only useful information. This json is loaded on front end to Google Map, showing all the locations together with data on the ages of children, operation hours, etc. The ap also attempts to search for the page of kindergarten on Facebook, and if it exists, shows some useful information from it.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal modal-fullscreen merlin2excel" tabindex="-1" role="dialog" aria-labelledby="merlin2excel" aria-hidden="true" id="merlin2excel">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <nav class="modal-header align-items-center"><a class="nav-item nav-link ml-auto invisible close" href="#close">&times;</a>
+                      <div class="modal-header-title d-flex align-items-center">
+                        <h2 class="navbar-brand modal-title text-primary mx-3">Merlin2Excel</h2>
+                      </div><a class="nav-item nav-link ml-auto close" href="#close" data-dismiss="modal" aria-label="Close" title="Close">&times;</a>
+                    </nav>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-12 text-left text-secondary">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-7"><img class="img-fluid" src="img/portfolio/merlin2excel.png" alt="Screenshot of source file and result"/></div>
+                          <div class="col-md-5 text-left">
+                            <ul class="list-group-flush text-left pl-1 project-spec">
+                              <li class="list-group-item project-date text-secondary"><i class="far fa-calendar-alt"></i><span class="pl-2 text-dark">March 2018</span>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="far fa-clock"></i><span class="pl-2 text-dark">~20 hours</span>
+                              </li>
+                              <li class="list-group-item project-date text-secondary"><i class="fab fa-github"></i><a class="pl-2" href="https://github.com/Illustrova/Merlin2Excel-timing-creator" target="_blank" rel="noopener">Source code</a>
+                              </li>
+                            </ul>
+                            <h5 class="mx-3 mb-2">Technologies</h5>
+                            <ul class="list-unstyled unordered-list project-tech pl-1 ml-4">
+                              <li>Node.js</li>
+                              <li>Moment.js</li>
+                              <li>xml2js</li>
+                              <li>Excel4node</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 text-left">
+                            <h3 class="m-3">Details</h3>
+                            <p>A simple Node.js tool, created to avoid routine tasks at my office job. It's purpose is so specific, that it's probably useless for anyone else, although it can work with any type of data. The script parses xml file, exported from Merlin project, and creates a nice client-friendly Excel table. It also preserves the formatting (e.g. one task - one line), and applies colors to each type of activity, based on simple dictionary.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.0/shuffle.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/scripts.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  </body>
+</html>
